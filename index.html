@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>React Boilerplate</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" />
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+        <link rel="stylesheet" href="/public/css/style.css" />
+    </head>
+    <body>
+        <section class="hero is-fullheight has-background-light">
+            <div class="hero-head has-background-black">
+                <div class="container">
+                    <h1 class="title is-2 has-text-white">Project Header</h1>
+                </div>
+            </div>
+            <div class="hero-body container is-fullheight has-background-white">
+                <div id="app" class="app"><%= body %></div>
+            </div>
+            <footer class="hero-foot footer has-background-black">
+              <div class="container has-text-white">
+                  Project footer
+              </div>
+            </footer>
+        </section>
+        <script src="/public/bundle.js"></script>
+    </body>
+</html>
